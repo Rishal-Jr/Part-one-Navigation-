@@ -1,55 +1,31 @@
        body {
-           font-family: Arial, Helvetica, sans-serif;
+           font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
            margin: 0;
            background-color:black;
        }
 
        .topnav {
            overflow: hidden;
-           background-color: aqua;
+           background-color: black;
+        
        }
 
        .topnav a {
-           float: left;
-           color: black;
+           float: right;
+           color: aquamarine;
            text-align: center;
            padding: 14px 16px;
            text-decoration: dotted;
+           text-decoration:aquamarine;
            font-size: 17px;
        }
 
        .topnav a:hover {
-           background-color: blueviolet;
-           color: deepskyblue;
+           background-color: aquamarine;
+           color: black;
        }
 
        .topnav a.active {
            background-color: yellowgreen;
            color: darkcyan;
        }
-#h1{
-    text-align: center;
-    text-decoration: underline;
-    text-transform: capitalize;
-    color: aqua;
-}
-.carousel-container{
-    justify-content: center;
-    height: 300px;
-    align-items: center;
-display: flex;
-}
-.myslides{
-    max-width: 100%;
-    max-height: 100%;
-    display: none;
-    opacity: 0;
-    transition: opacity 2s ease-in-out;
-}
-.myslides.active{
-    display: block;
-    opacity: 1;
-}
-h1{
-    color: aqua;
-}
