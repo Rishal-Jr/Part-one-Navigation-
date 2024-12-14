@@ -72,7 +72,7 @@
             bottom: 0px;
             right: 10px;
             width: 100%;
-            background: gainsboro;
+            background: black;
             color: black;
             text-align: center;
         }
@@ -151,5 +151,5 @@
 margin-right: 15px;
 }
 .footer-social-icon i{
-    height: ;
+    height:  ;
 }
